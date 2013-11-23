@@ -115,7 +115,7 @@ END
   popd
   echo
   echo ""
-  echo "Drupal 8 has been set up but not installed."
+  echo "Drupal 7 has been set up but not installed."
   echo "Go to http://${OPENSHIFT_APP_DNS}/core/install.php to install Drupal."
   if [ ! -z $OPENSHIFT_MYSQL_DB_PASSWORD ]; then
     echo "You will need to enter ${OPENSHIFT_MYSQL_DB_PASSWORD} as the MySQL password for the installer."
